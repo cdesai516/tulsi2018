@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/milkyway.jpg");
+
+}
+   @media only screen and (max-width : 992px) {
+     header, main, footer {
+       padding-left: 0;
+     }
+   }
+
+#main{
+   background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff8e1;
+
+}
+#welcome{
+  justify-content: center;
+}
+.row {
+    border-color: black;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#1a237e;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+#noBorder{
+  border: none;
+  background-color: #0000;
+}
+#noBorder2{
+  border: none;
+  background-color: #0000;
+}
+
+.report {
+
+  background-color: #0000 !important;
+}
+
+footer {
+  display: none;
+}
+
+
+span , p , h5 {
+  color: white;
+}
+
+.summaryText, h5{
+  color:#263238;
+  border-color: #1a237e;
+  border-width: 5px;
+
+}
+.collapsible-header{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #1a237e;
+  background-color: #1a237e;
+  color:#b2ebf2 ;
+}
+
+.collapsible-body{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #1a237e;
+}
